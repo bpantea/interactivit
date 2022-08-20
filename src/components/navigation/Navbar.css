@@ -1,0 +1,43 @@
+.desktop-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px;
+
+    font-size: 18px;
+}
+
+.link.active {
+    font-weight: bolder;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: relative;
+    height: 120px;
+
+    padding: 0 20px;
+}
+
+.navbar-line {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 30%;
+    bottom: 30%;
+    background-color: var(--dark-grey);
+}
