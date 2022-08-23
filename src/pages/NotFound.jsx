@@ -1,5 +1,6 @@
 import React from "react";
+import { Page } from "../components/shared/Page";
 
 export default function NotFound() {
-  return <div>The page that you're looking for doesn't exist</div>;
+  return <Page>The page you're looking for doesn't exist</Page>;
 }

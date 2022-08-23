@@ -1,5 +1,6 @@
 import React from "react";
+import { Page } from "../components/shared/Page";
 
 export default function LandingPage() {
-  return <div>Landing Page</div>;
+  return <Page>Landing Page</Page>;
 }

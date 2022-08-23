@@ -1,4 +1,6 @@
 html {
     --dark-grey: rgb(73, 73, 73);
     --white: rgb(255, 255, 255);
+
+    --yellow: #ffec83;
 }
